@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    /* border: 5px solid orangered; */
+}
+
+p {
+    border: 5px solid rgb(235, 17, 17);
+    background-color: darkred;
+    color: white;
+    margin: 5rem 2rem 5rem 2rem ;
+   
+    padding: 3rem 5rem;
+}
+
+h2 {
+    color: green;
+    font-size: 3rem;
+}
+
+.heading_2 {
+    color: Yellow;
+}
+
+#paragraph {
+    color: gray;
+}
+
+/* Child Selector */
+/* .child-selector {
+    color: blueviolet;
+} */
+
+section > p {
+    color: blueviolet;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    padding-block: 1rem;
+    background-color: red;
+    color: white;
+}
+
+/* Psuedo Selector */
+
+.button:hover {
+    background-color: green;
+    border-radius: 20px;
+    border: none;
+    transform: rotate(45deg);
+}
+
+/* FlexBox */
+.flex-box {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    /* gap: 1rem; */
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+
+.flex-box_container p {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.positioning {
+    position: absolute;
+    border: 5px solid green;
+    right: 5rem;
+}

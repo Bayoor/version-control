@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- CSS Normalization -->
+    <!-- It simply helps us to remove all default settings of our browser e.g(margin, padding, box-sizing...) -->
+
+    <!-- CSS Box Model -->
+    <!-- It consist of margin, border, paddings and content 
+    Margins add space outside content
+    Border is the line surrounding your content
+    Padding is the space inside your content
+    -->
+    <!-- Note every element(html) in css is box -->
+
+    <p id="text-content">Lorem ipsum dolor sit amet.</p>
+    <p id="paragraph-content">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Selectors -->
+    <!-- There are different types of selectors
+    1. Universal selector (*)
+    2. Simple Selectors(name, class, id)
+    3. Child Selector
+    4. Psuedo Selector
+    -->
+
+    <!-- Simple Selector -->
+    <!-- Name Selector -->
+
+    <h2>Hello World!</h2>
+    <h2 class="heading_2">Hello World!</h2>
+    <p class="heading_2">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Child Selector -->
+
+    <section class="parent">
+      <p class="direct-child">Lorem ipsum dolor sit amet.</p>
+
+      <div class="direct-child">
+        <p class="grand-child">Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <button class="button">Button</button>
+    </section>
+
+    <!-- FlexBox -->
+    <section class="flex-box">
+
+      <div class="flex-box_container positioning">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+      <div class="flex-box_container">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+      <div class="flex-box_container">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+      <div class="flex-box_container">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    </section>
+  </body>
+</html>
